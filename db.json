@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "title": "Cấu hình TanStack React Query",
+      "description": "Thiết lập QueryClientProvider, useQuery lấy danh sách và useMutation thêm/xóa",
+      "dueDate": "2026-11-26",
+      "priority": "high",
+      "status": "done"
+    },
+    {
+      "id": 3,
+      "title": "Tạo form thêm công việc mới",
+      "description": "Validate bắt buộc nhập title và điều hướng về /tasks sau khi lưu thành công",
+      "dueDate": "2026-11-28",
+      "priority": "medium",
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "title": "Kiểm tra chức năng xóa công việc",
+      "description": "Thêm hộp thoại xác nhận trước khi gọi DELETE và refetch lại danh sách",
+      "dueDate": "2026-11-30",
+      "priority": "low",
+      "status": "pending"
+    },
+    {
+      "id": 5,
+      "title": "Cấu hình React Router và menu điều hướng",
+      "description": "Khai báo route /tasks và /tasks/add kèm thanh menu chuyển trang mượt mà",
+      "dueDate": "2026-12-02",
+      "priority": "medium",
+      "status": "done"
+    },
+    {
+      "title": "dccdcccdc",
+      "description": "123456789",
+      "dueDate": "2008-09-11",
+      "priority": "Low",
+      "status": "Pending",
+      "id": 6
+    }
+  ]
+}
