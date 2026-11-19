@@ -15,7 +15,7 @@ function ListPage() {
     setTask(res.data)
   }
   const handleDelete = async(id:string)=>{
-    if(!confirm("Bạn chắc chắn muốn xóa"))return;
+    if(!confirm("Bạn chắc chắn muốn xóa?"))return;
     await axios.delete(`http://localhost:3000/tasks/${id}`).then(()=>{
       getTasks()
       alert("Xóa thành công")
